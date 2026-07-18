@@ -1,0 +1,74 @@
+Phase 0
+1 Client VS Server 
+2 Browser Architecture 
+3. URL Structure 
+4. Domain
+5. DNS 
+6. Hosting 
+7. HTTP vs HTTPS 
+8. HTTP Methods
+9. HTTP Status Codes 
+10. HTTP Headers 
+Phase 1 - Networking Fundamentals 
+1. OSI Module 
+2. TCP/IP Module
+3. IP Address with IPv4 vs IPv6 
+4. Public vs Private IP
+5. MAC Address
+6. Port
+7. Reserved Port
+Phase 2 JavaScript Fundamentals
+1. JavaScript history 
+2. ECMAScript 
+3. ES5 vs ES6 
+4. Strict Mode 
+5. Prototypes 
+6. this keyword 
+7. Event Loop
+8. Call Stack 
+9. Callback Queue 
+10. Fetch AIP
+11. localStorage
+12. Session Storage 
+13. OOP Classes 
+Phase 3 - Node.js Fundamentals 
+1. What is Nodejs
+2. V8 Engine 
+3. npm 
+4. npx
+5. yarn 
+6. pnpm 
+7. Package manager 
+8. Dependency 
+9. Dev Dependency
+10. Global Dependency
+
+Phase 4 Software Enginnering Fundamentals
+1. Static Vs Dynamic 
+2. Compiled vs Interpreted 
+3. Synchronous Vs Asynchronous
+4. Blocking ave No-Blocking
+5. Process Vs Thread 
+6. Single Thread vs Multi Thread 
+7. Stack Vs heap Memory 
+8. Garbage Collection 
+
+Phase 5 Development Tools 
+1. Vs code 
+2. Terminal 
+3. Command Line 
+4. Git
+5. GitHub 
+6. SSH 
+Phase 6 Software Architecture 
+1. Library vs Framework 
+2. AIP
+3. SDK
+4. CLI
+5 Middleware 
+6. MVC
+Phase 7 Security Fundamentals
+1. CORS 
+2. Same-origin policy
+3. Hashing 
+4. SSL/TLS 
