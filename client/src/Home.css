@@ -1,0 +1,16 @@
+.container {
+    background-color: yellow;
+}
+
+.title {
+    color: blue;
+    font-size: 30px;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: red;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
