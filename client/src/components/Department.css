@@ -1,0 +1,13 @@
+.department-box {
+    border: 2px solid #4f46e5;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background-color: #f9fafb;
+}
+
+.department-box h3 {
+    margin: 0;
+    color: #4f46e5;
+    font-size: 20px;
+}
