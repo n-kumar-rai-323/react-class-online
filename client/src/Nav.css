@@ -55,7 +55,7 @@ form input{
     border: 1px rgba(0, 0, 0, 0.2);
 }
 
-button{
+form button{
     margin-top: 30px;
     padding: 5px;
     width: 90%;
@@ -65,7 +65,7 @@ button{
     box-shadow: 0 0 5px blue;
 }
 
-button:hover{
+form button:hover{
     color: rgb(72, 0, 139);
     box-shadow: 0 0 10px blue;
 }
