@@ -1,10 +1,17 @@
+import { useState } from "react"
 function Event() {
-    function handleClick(event) {
-        console.log(event)
-    }
+    const [username, setUsername] = useState("")
+
+    // function handleClick(event) {
+
+    // }
     return (
         <>
-            <button onClick={handleClick}>Click</button>
+
+            <input value={username} onChange={(event) => setUsername(event.target.value)} />
+            <p>{username}</p>
+
+
         </>
     )
 }
