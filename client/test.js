@@ -1,4 +1,6 @@
-let count = 0
+let data = true
 
-let btn
-<btn>Count</btn>
+// console.log(!data)
+// {showPassword ? "text" : "password"}
+
+console.log(data ? "Text" : "password")
