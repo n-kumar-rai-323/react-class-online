@@ -1,25 +1,32 @@
 import { useState } from "react"
 import "./Change.css"
 
-function Change(){
-
+function Change() {
+    const [like,setLike] = useState(false)
     
-    const [dark, setDark] =useState(false)
-
-    function toggleTheme(){
-        setDark(!dark)
+    function toLike() {
+        setLike(!like)
     }
-    return(
-        <>
-        <body style={{
-            backgroundColor: dark? "black":"white"
-        }}>
-            <h2>{dark ? "Dark":"light"}</h2>
-       <button onClick={()=>setDark(!dark)}>Toggl Theme</button>
-        </body>
-        
-        </>
-    )
+
+    function todislike(){
+        setLike(!like)
+}
+
+return (
+    <>
+       
+        <h2>{like? "Liked" : "Not Liked"}</h2>
+        <div className="btn">
+           <button onClick={toLike}>👍</button>
+        <button onClick={todislike}>👎</button>
+        </div>
+       
+
+
+
+
+    </>
+)
 }
 
 export default Change

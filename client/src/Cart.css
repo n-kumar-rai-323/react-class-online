@@ -1,0 +1,113 @@
+h1,h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(27, 0, 63);
+    color: #ffffff;
+    text-shadow: 0 0 10px rgb(105, 109, 110);
+    border: 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.component{
+    width: 500px;
+    height: 850px;
+    background-color: rgb(138, 133, 127);
+    margin: 100px auto;
+    padding: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart{
+    background-color: white;
+    width: 450px;
+    height: 120px;
+    padding: 15px;
+    margin: 12px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.cart:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: rgb(190, 184, 184);
+}
+.cart p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cart button{
+    width: 90%;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d3b3b;
+    color: white;
+}
+
+.cart button:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    background-color: gray;
+}
+
+.product{
+    background-color: rgb(207, 214, 221);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.product:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+}
+
+.product p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.product button{
+     width: 90%;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d3b3b;
+    color: rgb(255, 254, 254);
+    margin-top: 50px;
+}
+
+.head{
+    height: 50px;
+}
+
+.head h2{
+    margin-top: 20px;
+}
+
+h2 button{
+     width: 100px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d3b3b;
+    color: white;
+    align-items: center;
+}
+
+h2 button:hover{
+    background-color: gray;
+    box-shadow: 0 0 20px rgb(104, 100, 100);
+}
+
+.main{
+    display: flex;
+}
