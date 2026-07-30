@@ -9,8 +9,6 @@ function SelectData() {
     }
     function changeData(e) {
         setCountry(e.target.value)
-        // console.log(e)
-
     }
     return (
         <>
@@ -22,7 +20,7 @@ function SelectData() {
                     <option value="India">India</option>
                 </select>
                 {country && (
-                    <>
+                    <>66
                         <h3>Select City</h3>
                         <select >
                             <option value="">Select City</option>
