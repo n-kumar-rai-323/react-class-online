@@ -1,0 +1,36 @@
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.error-code {
+    font-size: 90px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.error-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    background: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home-button:hover {
+    background: blue;
+}
