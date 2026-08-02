@@ -6,10 +6,9 @@ const ShoppingCart = () => {
         setCart([...cart, product])
     }
 
-    function remove(product){
-          cart.pop(product)
-    }
-
+    function removeItem(id) {
+         setCart(cart.filter((item) => item.id !== id));
+}
     function clear(){
         setCart([])
     }
@@ -63,7 +62,7 @@ const ShoppingCart = () => {
                 <div className="product" key={index}>
                     <p>{item.name}</p>
                     <p>Rs.{item.price}</p>
-                    <button onClick={remove}>Remove</button>
+                    <button onClick={removeItem(item.id)}>Remove</button>
                 </div>
             ))}
             </div>
