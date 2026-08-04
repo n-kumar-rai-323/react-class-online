@@ -11,8 +11,8 @@ const RouterConfig = () => {
                 <Route path="/login" Component={Login}></Route>
                 <Route path="/register" element={<Register />} ></Route>
                 <Route path="*" element={<PageNotFound />}></Route>
-            </Routes >
-        </BrowserRouter >
+            </Routes>
+        </BrowserRouter>
     </>
 }
 
